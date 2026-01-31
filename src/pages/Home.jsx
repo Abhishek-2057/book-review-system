@@ -17,7 +17,7 @@ function Home() {
       .get(`${BACKENDURL}/api/books`)
       .then((res) => setBooks(res.data))
       .catch((err) => console.error("Error fetching books:", err));
-  }, []);
+  }, [BACKENDURL]);
 
   useEffect(() => {
     searchRef.current.focus();

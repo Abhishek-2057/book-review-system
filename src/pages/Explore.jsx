@@ -21,7 +21,7 @@ function Explore() {
         console.error("Error fetching books:", err);
         setLoading(false);
       });
-  }, []);
+  }, [BACKENDURL]);
 
   if (loading) {
     return <div className="loading">Loading books...</div>;

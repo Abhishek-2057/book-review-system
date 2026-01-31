@@ -31,7 +31,7 @@ const books = [
   },
   {
     id: 3,
-    title: "JavaScript: The Definitive Guide",
+    title: "JavaScript — The Definitive Guide",
     author: "David Flanagan",
     publisher: "O'Reilly Media",
     date: "2020",
